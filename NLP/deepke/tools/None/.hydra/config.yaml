@@ -1,0 +1,46 @@
+preprocess: true
+data_path: data/origin
+out_path: data/out
+chinese_split: true
+replace_entity_with_type: true
+replace_entity_with_scope: true
+min_freq: 3
+pos_limit: 30
+seed: 1
+use_gpu: true
+gpu_id: 0
+epoch: 50
+batch_size: 32
+learning_rate: 0.0003
+lr_factor: 0.7
+lr_patience: 3
+weight_decay: 0.001
+early_stopping_patience: 6
+train_log: true
+log_interval: 10
+show_plot: true
+only_comparison_plot: false
+plot_utils: matplot
+predict_plot: true
+vocab_size: ???
+word_dim: 60
+pos_size: ???
+pos_dim: 10
+dim_strategy: sum
+num_relations: 11
+fp = 'xxx/checkpoints/2019-12-03_17-35-30/cnn_epoch21.pth': null
+model:
+  model_name: cnn
+  in_channels: ???
+  out_channels: 100
+  kernel_sizes:
+  - 3
+  - 5
+  - 7
+  activation: gelu
+  pooling_strategy: max
+  keep_length: true
+  dropout: 0.3
+  use_pcnn: false
+  intermediate: 80
+cwd: ???
