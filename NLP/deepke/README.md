@@ -2,6 +2,129 @@
 
 DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 
+# 代码运行说明：
+
+> 基本运行方法：
+>
+> > 找到tools文件夹下的main.py直接运行即可
+> >
+> > 注：本项目下的代码是经过调试修改的，和原项目的运行说明是不一样的哈。
+
+
+
+> 代码详细说明（按可理解的顺序说明的）
+>
+> > # 配置文件：
+> >
+> > - 配置文件位于config目录下，主配置文件为config.yaml，其主要的信息如下：
+> >
+> > ```yaml
+> > - preprocess
+> > - embedding
+> > - train
+> > - predict
+> > - model: cnn   # [cnn, rnn, transformer, capsule, gcn, lm]
+> > - override hydra/output: custom（这个不重要，规定一下日志格式等内容，想详细了解的请具体看hydra这个库的说明，当然了等看完代码再看这些细节的东西）
+> > ```
+> >
+> > 上面配置文件的主要作用就是：他配置了一个模型训练需要的所有模块：数据处理模块，词嵌入向量配置，数据训练模块，预测模块，训练的模型模块。这些模块的配置信息也都是yaml文件保存在config文件夹下。
+> >
+> > - 配置文件的加载：
+> >
+> >   使用了hydra这个库来加载的yaml文件，加载语句位于tools/main.py文件里如下：
+> >
+> >   ```python
+> >   @hydra.main(config_path='../conf',config_name='config.yaml')
+> >   def main(cfg):
+> >       cwd = utils.get_original_cwd()
+> >       cwd = cwd[0:-5]
+> >       cfg.cwd = cwd
+> >       cfg.pos_size = 2 * cfg.pos_limit + 2
+> >       logger.info(f'\n{OmegaConf.to_yaml(cfg)}')
+> >   
+> >   ```
+> >
+> >   加载方式为注解的方式@hydra.main(config_path='../conf',config_name='config.yaml')，使用这种方式来加载yaml文件的时候，首先他会找到config.yaml文件，然后对里面的内容解析，比如遇到里面的preprocess他就会找config.yaml同目录下的preprocess.yaml文件，如果遇到model:cnn 他就找config.yaml同目录的model文件夹，然后找到cnn.yaml文件来加载，其他的子目录里面的字段都是不带 - 的就不会解析为文件而是直接解析为变量。
+> >
+> > # 数据处理：
+> >
+> > - 本身提供的数据格式如下:
+> >
+> >   ![](\images\image-20210720154631055.png)
+> >
+> > - 数据处理模块如下,位于main.py的48行：
+> >
+> >   ```python
+> >   47 if cfg.preprocess:
+> >   48    preprocess(cfg)
+> >   ```
+> >
+> >   preprocess的主要功能就根据所有内容构建一个词库或者加载预训练的词库，然后把所有的sentence转换为序号编码，这个具体过程展示：
+> >
+> >   - 进行分词，并且把实体替换为类型，如tokens所示：
+> >
+> >   ![image-20210720155615801](\images\image-20210720155615801.png)
+> >
+> >   - 构建词库，进行序列化标注，这里会把新形成的一些词HEAD_人物等都归入到词库中的，不论是自己构造还是预训练的词库都是这样的：
+> >
+> >     在tools\preprocess.py里如下几个位置就可以看出来
+> >
+> >     ```python
+> >     121    d['token2idx'] = tokenizer.encode(sent, add_special_tokens=True)
+> >     122    d['seq_len'] = len(d['token2idx'])
+> >     
+> >     197    train_tokens = [d['tokens'] for d in train_data]
+> >     198    valid_tokens = [d['tokens'] for d in valid_data]
+> >     199    test_tokens = [d['tokens'] for d in test_data]
+> >     200    sent_tokens = [*train_tokens, *valid_tokens, *test_tokens]
+> >     201    for sent in sent_tokens:
+> >     202        vocab.add_words(sent)
+> >     ```
+> >
+> >     序号化标注之后的效果
+> >     
+> >     ![image-20210720232438553](E:\python\workplace\NLP\recipes\NamedEntityRecognition_RelationExtract\deepke\images\image-20210720232438553.png)
+> >     
+> >     添加给句子的词添加位置信息：位置信息这里添加分为两步，第一步计算各个词与第一个实体词的相对位置，就是实体词为0则左边为-1，-2，..右边为1，2，3...之后将这个之加上配置文件里设定的值30+1来使它归正大于等于1，当然了第二个实体词也是这样的。此外哈加和超过设定值2两倍+1的都设置为0，这也是之前为什么加30+1，就是为了把0空出来用来表示过剩的部分，具体效果如下：
+> >     
+> >     ![image-20210721000830163](C:\Users\MSI-PC\AppData\Roaming\Typora\typora-user-images\image-20210721000830163.png)
+> >     
+> >     然后将这一切保存为pkl格式的数据，使用的是python的pickle库，这个格式用来保存数据为二级制文件，可读性差，压缩效果好，保存东西暴力，所有python类型都能直接保存和加载回来，只适用于python.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Contributors
 
 > Organization: [浙江大学知识引擎实验室](http://openkg.cn/)
@@ -169,7 +292,7 @@ sentence|relation|head|head_offset|tail|tail_offset
     - 中文序列化要求：是否分词、遇到英文字母是否大小写处理、是否将英文单词拆分按照单独字母处理等。
     
 1. PCNN 预处理时，需要按照 head tail 的位置，将句子分为三段，做 piece wise max pooling。如果句子本身无法分为三段，就无法用统一的预处理方式处理句子。
-    
+   
     - 比如句子为：`杭州西湖`，不管怎么分隔都不能分隔为三段。
     
     - 原文分隔三段的方式为：`[...head,  ...,  tail....]`，当然也可以分隔为：`[...,  head...tail,  ....]`，或者 `[...head,  ...tail,  ....]`  或者 `[...,  head...,  tail...]` 等。具体效果没多少区别。
@@ -181,11 +304,11 @@ sentence|relation|head|head_offset|tail|tail_offset
 1. 使用语言预训练模型时，在线安装下载模型比较慢，更建议提前下载好，存放到 `pretrained` 文件夹内。具体存放文件要求见文件夹内的 `readme.md`。
 
 1. 数据量较小时，直接使用如12层的 BERT，效果并不理想。此时可采取一些处理方式改善效果：
-    
+   
     - 数据量较小时层数调低些，如设置为2、3层。
     
     - 按照 BERT 训练方式，对新任务语料按照语言模型方式预训练。
     
 1. 在单句上使用 GCN 时，需要先做句法分析，构建出词语之间的邻接矩阵（句法树相邻的边值设为1，不相邻为0）。
-    
-    - ~~目前使用的是 `pyhanlp` 工具构建语法树。这个工具需要按照 java 包，具体使用见 [pyhanlp](https://github.com/hankcs/pyhanlp) 的介绍。~~ pyhanlp 在多句时效果也不理想，很多时候把整个单句当作一个节点。
+   
+    - ~~目前使用的是 `pyhanlp` 工具构建语法树。这个工具需要按照 java 包，具体使用见 [pyhanlp](https://github.com/hankcs/pyhanlp) 的介绍。~~ pyhanlp 在多句时效果也不理想，很多时候把整个单句当作一个节点。	
