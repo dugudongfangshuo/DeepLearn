@@ -41,7 +41,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >       cfg.cwd = cwd
 > >       cfg.pos_size = 2 * cfg.pos_limit + 2
 > >       logger.info(f'\n{OmegaConf.to_yaml(cfg)}')
-> >   
+> >     
 > >   ```
 > >
 > >   加载方式为注解的方式@hydra.main(config_path='../conf',config_name='config.yaml')，使用这种方式来加载yaml文件的时候，首先他会找到config.yaml文件，然后对里面的内容解析，比如遇到里面的preprocess他就会找config.yaml同目录下的preprocess.yaml文件，如果遇到model:cnn 他就找config.yaml同目录的model文件夹，然后找到cnn.yaml文件来加载，其他的子目录里面的字段都是不带 - 的就不会解析为文件而是直接解析为变量。
@@ -50,7 +50,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > > - 本身提供的数据格式如下:
 > >
-> >   ![](\images\image-20210720154631055.png)
+> >   ![](.\images\image-20210720154631055.png)
 > >
 > > - 数据处理模块如下,位于main.py的48行：
 > >
@@ -61,7 +61,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > >   preprocess的主要功能就根据所有内容构建一个词库或者加载预训练的词库，然后把所有的sentence转换为序号编码，这个具体过程展示：
 > >
-> >   - 进行分词，并且把实体替换为类型，如tokens所示：![image-20210720155615801](\images\image-20210720155615801.png)
+> >   - 进行分词，并且把实体替换为类型，如tokens所示：![image-20210720155615801](.\images\image-20210720155615801.png)
 > >
 > >   - 构建词库，进行序列化标注，这里会把新形成的一些词HEAD_人物等都归入到词库中的，不论是自己构造还是预训练的词库都是这样的：
 > >
@@ -70,7 +70,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >     ```python
 > >     121    d['token2idx'] = tokenizer.encode(sent, add_special_tokens=True)
 > >     122    d['seq_len'] = len(d['token2idx'])
-> >     
+> >         
 > >     197    train_tokens = [d['tokens'] for d in train_data]
 > >     198    valid_tokens = [d['tokens'] for d in valid_data]
 > >     199    test_tokens = [d['tokens'] for d in test_data]
@@ -81,11 +81,11 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > >     序号化标注之后的效果
 > >
-> >     ![image-20210720232438553](E:\python\workplace\NLP\recipes\NamedEntityRecognition_RelationExtract\deepke\images\image-20210720232438553.png)
+> >     ![image-20210720232438553](.\images\image-20210720232438553.png)
 > >
 > >     添加给句子的词添加位置信息：位置信息这里添加分为两步，第一步计算各个词与第一个实体词的相对位置，就是实体词为0则左边为-1，-2，..右边为1，2，3...之后将这个之加上配置文件里设定的值30+1来使它归正大于等于1，当然了第二个实体词也是这样的。此外哈加和超过设定值2两倍+1的都设置为0，这也是之前为什么加30+1，就是为了把0空出来用来表示过剩的部分，具体效果如下：
 > >
-> >     ![image-20210721000830163](C:\Users\MSI-PC\AppData\Roaming\Typora\typora-user-images\image-20210721000830163.png)
+> >     ![image-20210721000830163](.\images\image-20210721000830163.png)
 > >
 > >     然后将这一切保存为pkl格式的数据，使用的是python的pickle库，这个格式用来保存数据为二级制文件，可读性差，压缩效果好，保存东西暴力，所有python类型都能直接保存和加载回来，只适用于python.
 > >
@@ -101,7 +101,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > >     - PCNN（models/PCNN.py）
 > >
-> >       ![image-20210721214831473](C:\Users\MSI-PC\AppData\Roaming\Typora\typora-user-images\image-20210721214831473.png)
+> >       ![image-20210721214831473](.\images\PCNN.jpg)
 > >
 > >       - 1.进行卷积（module/CNN.py）：
 > >         - 这里使用一维的卷积，对词向量化后的句子进行卷积操作，一维卷积核要知道移动方向为channel维度（这里就是word embedding 的维度），默认宽度也是channel的宽度（word embedding 的维度），长度自定义，这样每个卷积核操作后输出的都是一个一维向量，通过指定outputchannel就可以扩充wordembeding的维度了。（怎么画动图演示一下呀，好想呀。没找到办法。。）
