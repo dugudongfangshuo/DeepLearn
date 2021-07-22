@@ -41,7 +41,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >       cfg.cwd = cwd
 > >       cfg.pos_size = 2 * cfg.pos_limit + 2
 > >       logger.info(f'\n{OmegaConf.to_yaml(cfg)}')
-> >     
+> >   
 > >   ```
 > >
 > >   加载方式为注解的方式@hydra.main(config_path='../conf',config_name='config.yaml')，使用这种方式来加载yaml文件的时候，首先他会找到config.yaml文件，然后对里面的内容解析，比如遇到里面的preprocess他就会找config.yaml同目录下的preprocess.yaml文件，如果遇到model:cnn 他就找config.yaml同目录的model文件夹，然后找到cnn.yaml文件来加载，其他的子目录里面的字段都是不带 - 的就不会解析为文件而是直接解析为变量。
@@ -50,7 +50,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > > - 本身提供的数据格式如下:
 > >
-> >   ![](./images/image-20210720154631055.png)
+> >   ![](\images\image-20210720154631055.png)
 > >
 > > - 数据处理模块如下,位于main.py的48行：
 > >
@@ -61,9 +61,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >
 > >   preprocess的主要功能就根据所有内容构建一个词库或者加载预训练的词库，然后把所有的sentence转换为序号编码，这个具体过程展示：
 > >
-> >   - 进行分词，并且把实体替换为类型，如tokens所示：
-> >
-> >     ![image-20210720155615801](./images/image-20210720155615801.png)
+> >   - 进行分词，并且把实体替换为类型，如tokens所示：![image-20210720155615801](\images\image-20210720155615801.png)
 > >
 > >   - 构建词库，进行序列化标注，这里会把新形成的一些词HEAD_人物等都归入到词库中的，不论是自己构造还是预训练的词库都是这样的：
 > >
@@ -72,7 +70,7 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >     ```python
 > >     121    d['token2idx'] = tokenizer.encode(sent, add_special_tokens=True)
 > >     122    d['seq_len'] = len(d['token2idx'])
-> >         
+> >     
 > >     197    train_tokens = [d['tokens'] for d in train_data]
 > >     198    valid_tokens = [d['tokens'] for d in valid_data]
 > >     199    test_tokens = [d['tokens'] for d in test_data]
@@ -82,14 +80,43 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 > >     ```
 > >
 > >     序号化标注之后的效果
-> >     
-> >     ![image-20210720232438553](./images/image-20210720232438553.png)
-> >     
+> >
+> >     ![image-20210720232438553](E:\python\workplace\NLP\recipes\NamedEntityRecognition_RelationExtract\deepke\images\image-20210720232438553.png)
+> >
 > >     添加给句子的词添加位置信息：位置信息这里添加分为两步，第一步计算各个词与第一个实体词的相对位置，就是实体词为0则左边为-1，-2，..右边为1，2，3...之后将这个之加上配置文件里设定的值30+1来使它归正大于等于1，当然了第二个实体词也是这样的。此外哈加和超过设定值2两倍+1的都设置为0，这也是之前为什么加30+1，就是为了把0空出来用来表示过剩的部分，具体效果如下：
-> >     
-> >     ![image-20210721000830163](./images/image-20210721000830163.png)
-> >     
+> >
+> >     ![image-20210721000830163](C:\Users\MSI-PC\AppData\Roaming\Typora\typora-user-images\image-20210721000830163.png)
+> >
 > >     然后将这一切保存为pkl格式的数据，使用的是python的pickle库，这个格式用来保存数据为二级制文件，可读性差，压缩效果好，保存东西暴力，所有python类型都能直接保存和加载回来，只适用于python.
+> >
+> > # 模型构建
+> >
+> > - PCNN模型
+> >
+> >   - Embeding:
+> >
+> >     - 首先我们构建词向量，词向量由三部分组成：wordEmbed（词嵌入），headPosEmbed（头部实体位置嵌入），tailPosEmbed（尾部实体位置嵌入），三部分有两种组成方式：加和和拼接。加和的话位置嵌入的向量大小和词嵌入的向量大小是一样的，拼接的话就是使用指定长度的位置嵌入向量就可以了。此外相加之后会使用LayerNorn在词向量的长度维度来归一化每个词向量，。
+> >
+> >   - model:
+> >
+> >     - PCNN（models/PCNN.py）
+> >
+> >       ![image-20210721214831473](C:\Users\MSI-PC\AppData\Roaming\Typora\typora-user-images\image-20210721214831473.png)
+> >
+> >       - 1.进行卷积（module/CNN.py）：
+> >         - 这里使用一维的卷积，对词向量化后的句子进行卷积操作，一维卷积核要知道移动方向为channel维度（这里就是word embedding 的维度），默认宽度也是channel的宽度（word embedding 的维度），长度自定义，这样每个卷积核操作后输出的都是一个一维向量，通过指定outputchannel就可以扩充wordembeding的维度了。（怎么画动图演示一下呀，好想呀。没找到办法。。）
+> >         - 这里共使用了3个不同长度的卷积层来进行的卷积（这里是分别卷积的，不是依次卷积），然后在channel维度拼接在了一起，然后根据mask将padding的位置的词向量替换为一个很小的数。
+> >         - 使用最大池化操作或者其他操作，结果的形状都一样。<u>**池化的方向和卷积方向不一样**</u>沿着句子长度的维度来的，池化后都是取一个值，池化核大小等于句子长度，所有的句子最后又成了一个一个的一维向量，也就是最后生成了句子的向量表示。
+> >         - 最后使用dropout防止过拟合。
+> >         - 到这里每句话的向量表示都出来了可以做分类了，下面PCNN模块是可选的一种增强方式。
+> >       - 2.使用PCNN方法进行特征增强：
+> >         - PCNN使用的情况是句子中只有两个实体，实体之间有距离不能靠着，实体离句子两边都有距离不能为0，然后根据实体的位置我们可以把句子分成三部分用如下方式标记，11112222233330000，1表示第一个实体之前（包含了第一个实体），2表示第一个和第二个实体之间，3表示第二实体之后，0表示的是padding
+> >         - 然后使用embeding层来对这个序列进行向量化，这里设置的embeding的维度为3，vobsize为4
+> >         - 之后将这个embeding的数据和output的数据使用广播机制合并，两个数据的词长度维度是相同的可以合并（感觉挺诡异的合并方式吧），然后又在每一个句子长度的维度进行最大池化得到和上面一样的输出向量三个300维的向量，然后对这个向量的后两位展平处理形成一维向量。
+> >       - 3.全连接层进行预测：
+> >         - 然后使用全连接层将数据输出到指定的类别个数个维度。然后就是计算损失了。
+> >
+> > 
 
 
 
@@ -106,74 +133,6 @@ DeepKE 是基于 Pytorch 的深度学习中文关系抽取处理套件。
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Contributors
-
-> Organization: [浙江大学知识引擎实验室](http://openkg.cn/)
-
-> Mentor: 陈华钧，张宁豫
-
----
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/huajunsir/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/huajunsir">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/1858627?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@huajunsir">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/zxlzr/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zxlzr">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/1264492?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@zxlzr">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/231sm/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/231sm">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/26428692?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@231sm">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/ruoxuwang/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ruoxuwang">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/19322627?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@ruoxuwang">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/yezqNLP/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/yezqNLP">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/35182031?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@yezqNLP">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/yuwl798180/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/yuwl798180">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/18118119?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@yuwl798180">
-</a>
-
-<a class="mr-2" data-hovercard-type="user" data-hovercard-url="https://github.com/users/seventk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/seventk">
-<img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/37468830?s=64&amp;v=4" width="48" height="48" border-radius="24" alt="@seventk">
-</a>
-
-
-## 环境依赖:
-
-> python >= 3.6
-
-- torch >= 1.2
-- hydra-core >= 0.11
-- tensorboard >= 2.0
-- matplotlib >= 3.1
-- scikit-learn>=0.22
-- transformers >= 2.0
-- jieba >= 0.39
-- ~~pyhanlp >= 0.1.57~~（中文句法分析使用，但是在多句时效果也不好。。求推荐有比较好的中文句法分析）
 
 
 
