@@ -1,0 +1,132 @@
+# Generated 2021-08-02 from:
+# E:\python\workplace\Audio\recipe\Emotion\SpeechBrain\IEMOCAP\emotion_recognition\hparams\train.yaml
+# yamllint disable
+# ########################################
+# Emotion recognition from speech using ECAPA-TDNN
+# (smaller version with layer sizes and number
+# of attention heads divided by 2 compared to original)
+#
+#  * Authors: Hwidong Na & Mirco Ravanelli
+#  * Modified by Pierre-Yves Yanni
+# ########################################
+
+# Seed needs to be set at top of yaml, before objects with parameters are made
+seed: 1968
+__set_seed: !apply:torch.manual_seed [1968]
+
+# Set up folders for reading from and writing to
+# Dataset will be downloaded to the `data_folder`
+Ydata_folder: F:/DATA/au/IEMOCAP
+data_folder: ./data
+output_folder: results/ECAPA-TDNN/1968
+save_folder: results/ECAPA-TDNN/1968/save
+train_log: results/ECAPA-TDNN/1968/train_log.txt
+
+
+# different speakers for train, valid and test sets
+# (more challenging exercise: higher error rate)
+different_speakers: false
+
+# Path where data manifest files will be stored
+train_annotation: results/ECAPA-TDNN/1968/train.json
+valid_annotation: results/ECAPA-TDNN/1968/valid.json
+test_annotation: results/ECAPA-TDNN/1968/test.json
+
+# The train logger writes training statistics to a file, as well as stdout.
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: results/ECAPA-TDNN/1968/train_log.txt
+
+error_stats: !name:speechbrain.utils.metric_stats.MetricStats
+  metric: !name:speechbrain.nnet.losses.classification_error
+    reduction: batch
+
+ckpt_interval_minutes: 15 # save checkpoint every N min
+
+# Training Parameters
+number_of_epochs: 30
+batch_size: 16
+gradient_accumulation: 2
+lr: 0.0001
+weight_decay: 0.00002
+base_lr: 0.000001
+max_lr: 0.0001
+step_size: 1088  # 4 times number of iterations/epoch (2 to 10 is suggested)
+mode: exp_range # mode of learning rate schedule (triangular, triangular2, exp_range)
+gamma: 0.9998  # divides learning rate by 3 over the first 20 epochs
+sample_rate: 16000
+shuffle: true
+random_chunk: true
+drop_last: false
+
+# Feature parameters
+n_mels: 80
+left_frames: 0
+right_frames: 0
+deltas: false
+
+# Number of emotions
+out_n_neurons: 10 # (anger, happiness, sadness, neutral)
+
+dataloader_options:
+  batch_size: 16
+  shuffle: true
+  num_workers: 0    # 2 on linux but 0 works on windows
+  drop_last: false
+
+# Functions
+compute_features: &id001 !new:speechbrain.lobes.features.Fbank
+  n_mels: 80
+  left_frames: 0
+  right_frames: 0
+  deltas: false
+
+embedding_model: &id002 !new:speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN
+  input_size: 80
+  channels: [512, 512, 512, 512, 1536]
+  kernel_sizes: [5, 3, 3, 3, 1]
+  dilations: [1, 2, 3, 4, 1]
+  attention_channels: 64
+  lin_neurons: 96
+
+classifier: &id003 !new:speechbrain.lobes.models.ECAPA_TDNN.Classifier
+  input_size: 96
+  out_neurons: 10
+
+epoch_counter: &id005 !new:speechbrain.utils.epoch_loop.EpochCounter
+  limit: 30
+
+mean_var_norm: &id004 !new:speechbrain.processing.features.InputNormalization
+
+  norm_type: sentence
+  std_norm: false
+
+modules:
+  compute_features: *id001
+  embedding_model: *id002
+  classifier: *id003
+  mean_var_norm: *id004
+compute_cost: !new:speechbrain.nnet.losses.LogSoftmaxWrapper
+  loss_fn: !new:speechbrain.nnet.losses.AdditiveAngularMargin
+    margin: 0.2
+    scale: 30
+
+compute_error: !name:speechbrain.nnet.losses.classification_error
+
+opt_class: !name:torch.optim.Adam
+  lr: 0.0001
+  weight_decay: 0.00002
+
+lr_annealing: !new:speechbrain.nnet.schedulers.CyclicLRScheduler
+  mode: exp_range
+  gamma: 0.9998
+  base_lr: 0.000001
+  max_lr: 0.0001
+  step_size: 1088
+
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: results/ECAPA-TDNN/1968/save
+  recoverables:
+    embedding_model: *id002
+    classifier: *id003
+    normalizer: *id004
+    counter: *id005

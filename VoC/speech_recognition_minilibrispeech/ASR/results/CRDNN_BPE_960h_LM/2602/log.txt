@@ -1,0 +1,2182 @@
+2021-06-05 22:46:07,729 - speechbrain.core - INFO - Beginning experiment!
+2021-06-05 22:46:07,729 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-06-05 22:46:08,427 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scikit-learn==0.24.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.5
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+threadpoolctl==2.1.0
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-06-05 22:46:08,589 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-06-05 22:46:08,614 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-06-05 22:46:08,615 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Delegating to Huggingface hub, source speechbrain/asr-crdnn-rnnlm-librispeech.
+2021-06-05 22:46:08,618 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-06-05 22:46:08,629 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "train.py", line 446, in <module>
+    run_on_main(hparams["pretrainer"].collect_files)
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\utils\distributed.py", line 61, in run_on_main
+    func(*args, **kwargs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\utils\parameter_transfer.py", line 181, in collect_files
+    path = fetch(
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\pretrained\fetching.py", line 106, in fetch
+    fetched_file = huggingface_hub.cached_download(url)
+  File "D:\anaconda3\envs\speech\lib\site-packages\huggingface_hub\file_download.py", line 329, in cached_download
+    r = _request_with_retry(
+  File "D:\anaconda3\envs\speech\lib\site-packages\huggingface_hub\file_download.py", line 217, in _request_with_retry
+    response = requests.request(
+  File "D:\anaconda3\envs\speech\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\connectionpool.py", line 696, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\connectionpool.py", line 964, in _prepare_proxy
+    conn.connect()
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\connection.py", line 359, in connect
+    conn = self._connect_tls_proxy(hostname, conn)
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\connection.py", line 500, in _connect_tls_proxy
+    return ssl_wrap_socket(
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\util\ssl_.py", line 432, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "D:\anaconda3\envs\speech\lib\site-packages\urllib3\util\ssl_.py", line 474, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "D:\anaconda3\envs\speech\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\anaconda3\envs\speech\lib\ssl.py", line 997, in _create
+    raise ValueError("check_hostname requires server_hostname")
+ValueError: check_hostname requires server_hostname
+2021-06-05 22:49:59,277 - speechbrain.core - INFO - Beginning experiment!
+2021-06-05 22:49:59,288 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-06-05 22:49:59,948 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scikit-learn==0.24.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.5
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+threadpoolctl==2.1.0
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-06-05 22:50:00,098 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-06-05 22:50:00,125 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-06-05 22:50:00,126 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Delegating to Huggingface hub, source speechbrain/asr-crdnn-rnnlm-librispeech.
+2021-06-05 22:50:00,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-06-05 22:50:01,100 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-crdnn-rnnlm-librispeech/resolve/main/lm.ckpt HTTP/1.1" 302 0
+2021-06-05 22:50:01,104 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Delegating to Huggingface hub, source speechbrain/asr-crdnn-rnnlm-librispeech.
+2021-06-05 22:50:01,106 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-06-05 22:50:02,089 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-crdnn-rnnlm-librispeech/resolve/main/tokenizer.ckpt HTTP/1.1" 302 0
+2021-06-05 22:50:02,094 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Delegating to Huggingface hub, source speechbrain/asr-crdnn-rnnlm-librispeech.
+2021-06-05 22:50:02,097 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-06-05 22:50:03,018 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/asr-crdnn-rnnlm-librispeech/resolve/main/asr.ckpt HTTP/1.1" 302 0
+2021-06-05 22:50:03,022 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-06-05 22:50:05,629 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-06-05 22:50:06,805 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-06-05 22:50:06,806 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-06-05 22:50:06,806 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-06-05 22:51:00,676 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "train.py", line 462, in <module>
+    asr_brain.fit(
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\core.py", line 841, in fit_batch
+    loss.backward()
+  File "D:\anaconda3\envs\speech\lib\site-packages\torch\tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\torch\autograd\__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 446.00 MiB (GPU 0; 6.00 GiB total capacity; 3.70 GiB already allocated; 0 bytes free; 4.33 GiB reserved in total by PyTorch)
+2021-06-05 22:52:46,051 - speechbrain.core - INFO - Beginning experiment!
+2021-06-05 22:52:46,052 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-06-05 22:52:46,675 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scikit-learn==0.24.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.5
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+threadpoolctl==2.1.0
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-06-05 22:52:46,819 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-06-05 22:52:46,845 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-06-05 22:52:46,846 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-06-05 22:52:46,846 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-06-05 22:52:46,847 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-06-05 22:52:46,847 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-06-05 22:52:48,945 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-06-05 22:52:50,124 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-06-05 22:52:50,126 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-06-05 22:52:50,126 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-06-05 23:01:30,765 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "train.py", line 462, in <module>
+    asr_brain.fit(
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "D:\anaconda3\envs\speech\lib\site-packages\speechbrain\core.py", line 841, in fit_batch
+    loss.backward()
+  File "D:\anaconda3\envs\speech\lib\site-packages\torch\tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "D:\anaconda3\envs\speech\lib\site-packages\torch\autograd\__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 440.00 MiB (GPU 0; 6.00 GiB total capacity; 3.53 GiB already allocated; 0 bytes free; 4.19 GiB reserved in total by PyTorch)
+2021-06-30 19:36:31,358 - speechbrain.core - INFO - Beginning experiment!
+2021-06-30 19:36:31,384 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-06-30 19:36:34,050 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.7
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-06-30 19:36:34,098 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "train.py", line 421, in <module>
+    sb.create_experiment_directory(
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\core.py", line 109, in create_experiment_directory
+    description_str = sb.utils.logger.get_environment_description()
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\utils\logger.py", line 175, in get_environment_description
+    git_hash, _, _ = run_shell("git rev-parse --short HEAD")
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\utils\superpowers.py", line 55, in run_shell
+    raise OSError(err.decode("utf-8"))
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb2 in position 6: invalid start byte
+2021-06-30 19:37:40,513 - speechbrain.core - INFO - Beginning experiment!
+2021-06-30 19:37:40,545 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-06-30 19:37:41,359 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.7
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-06-30 19:37:41,642 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-06-30 19:37:41,765 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-06-30 19:37:41,766 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-06-30 19:37:41,766 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-06-30 19:37:41,767 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-06-30 19:37:41,767 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-06-30 19:37:51,464 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-06-30 19:37:55,594 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-06-30 19:37:55,596 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-06-30 19:37:55,596 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-06-30 19:55:55,972 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.00e+00 - train loss: 9.34e-01 - valid loss: 1.25, valid CER: 32.69, valid WER: 35.42
+2021-06-30 19:56:00,474 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+19-55-55+00
+2021-06-30 19:56:00,489 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-06-30 20:12:07,191 - speechbrain.nnet.schedulers - INFO - Changing lr from 1 to 0.8
+2021-06-30 20:12:07,197 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 1.00e+00 - train loss: 7.11e-01 - valid loss: 1.24, valid CER: 40.67, valid WER: 43.88
+2021-06-30 20:12:10,854 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-12-07+00
+2021-06-30 20:12:10,873 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2021-06-30 20:28:40,385 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.8 to 0.64
+2021-06-30 20:28:40,387 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 8.00e-01 - train loss: 6.63e-01 - valid loss: 1.24, valid CER: 42.81, valid WER: 45.71
+2021-06-30 20:28:44,586 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-28-40+00
+2021-06-30 20:28:44,934 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-12-07+00
+2021-06-30 20:28:44,960 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2021-06-30 20:41:42,834 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 6.40e-01 - train loss: 6.44e-01 - valid loss: 1.22, valid CER: 7.18, valid WER: 10.82
+2021-06-30 20:41:47,102 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-41-42+00
+2021-06-30 20:41:47,514 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-28-40+00
+2021-06-30 20:41:47,891 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+19-55-55+00
+2021-06-30 20:41:47,892 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2021-06-30 20:57:38,914 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.64 to 0.51
+2021-06-30 20:57:38,915 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 6.40e-01 - train loss: 6.35e-01 - valid loss: 1.25, valid CER: 39.16, valid WER: 41.89
+2021-06-30 20:57:43,994 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-57-38+00
+2021-06-30 20:57:44,024 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2021-06-30 21:14:20,559 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.51 to 0.41
+2021-06-30 21:14:20,560 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 5.12e-01 - train loss: 1.11 - valid loss: 1.25, valid CER: 65.36, valid WER: 68.03
+2021-06-30 21:14:27,339 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-14-20+00
+2021-06-30 21:14:27,775 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-57-38+00
+2021-06-30 21:14:27,776 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2021-06-30 21:29:35,757 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 4.10e-01 - train loss: 1.11 - valid loss: 1.22, valid CER: 40.76, valid WER: 43.54
+2021-06-30 21:29:42,601 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-29-35+00
+2021-06-30 21:29:42,853 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-14-20+00
+2021-06-30 21:29:42,853 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2021-06-30 21:46:36,962 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.41 to 0.33
+2021-06-30 21:46:36,963 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 4.10e-01 - train loss: 1.10 - valid loss: 1.24, valid CER: 61.50, valid WER: 63.42
+2021-06-30 21:46:43,789 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-46-36+00
+2021-06-30 21:46:44,261 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-29-35+00
+2021-06-30 21:46:44,262 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2021-06-30 22:04:04,236 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.33 to 0.26
+2021-06-30 22:04:04,237 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 3.28e-01 - train loss: 1.09 - valid loss: 1.24, valid CER: 66.25, valid WER: 68.29
+2021-06-30 22:04:10,388 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-04-04+00
+2021-06-30 22:04:10,567 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+21-46-36+00
+2021-06-30 22:04:10,568 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2021-06-30 22:21:47,234 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.26 to 0.21
+2021-06-30 22:21:47,234 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 2.62e-01 - train loss: 1.09 - valid loss: 1.25, valid CER: 98.87, valid WER: 1.00e+02
+2021-06-30 22:21:52,961 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-21-47+00
+2021-06-30 22:21:53,410 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-04-04+00
+2021-06-30 22:21:53,433 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2021-06-30 22:38:55,939 - speechbrain.utils.train_logger - INFO - epoch: 11, lr: 2.10e-01 - train loss: 1.09 - valid loss: 1.24, valid CER: 77.91, valid WER: 79.64
+2021-06-30 22:39:00,912 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-38-55+00
+2021-06-30 22:39:01,124 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-21-47+00
+2021-06-30 22:39:01,124 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2021-06-30 22:57:16,069 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.21 to 0.17
+2021-06-30 22:57:16,070 - speechbrain.utils.train_logger - INFO - epoch: 12, lr: 2.10e-01 - train loss: 1.08 - valid loss: 1.25, valid CER: 96.58, valid WER: 97.39
+2021-06-30 22:57:22,250 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-57-16+00
+2021-06-30 22:57:22,520 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-38-55+00
+2021-06-30 22:57:22,537 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2021-06-30 23:15:31,891 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.17 to 0.13
+2021-06-30 23:15:31,891 - speechbrain.utils.train_logger - INFO - epoch: 13, lr: 1.68e-01 - train loss: 1.08 - valid loss: 1.25, valid CER: 99.20, valid WER: 99.73
+2021-06-30 23:15:37,691 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-15-31+00
+2021-06-30 23:15:37,947 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+22-57-16+00
+2021-06-30 23:15:37,947 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2021-06-30 23:33:40,728 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.13 to 0.11
+2021-06-30 23:33:40,729 - speechbrain.utils.train_logger - INFO - epoch: 14, lr: 1.34e-01 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.05e+02, valid WER: 1.06e+02
+2021-06-30 23:33:44,734 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-33-40+00
+2021-06-30 23:33:44,941 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-15-31+00
+2021-06-30 23:33:44,942 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2021-06-30 23:50:59,566 - speechbrain.utils.train_logger - INFO - epoch: 15, lr: 1.07e-01 - train loss: 1.08 - valid loss: 1.25, valid CER: 92.35, valid WER: 93.06
+2021-06-30 23:51:09,097 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-50-59+00
+2021-06-30 23:51:09,463 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-33-40+00
+2021-06-30 23:51:09,467 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-41-42+00
+2021-06-30 23:51:10,025 - root - DEBUG - SaveableDataLoader was requested to load a checkpoint, but the DataLoader has already been iterated. The DataLoader file will be ignored. This is normal in evaluation, when a checkpoint is loaded just to retrieve the best model.
+2021-07-01 00:14:08,021 - speechbrain.utils.train_logger - INFO - Epoch loaded: 4 - test loss: 1.20, test CER: 8.44, test WER: 10.33
+2021-07-01 10:46:48,417 - speechbrain.core - INFO - Beginning experiment!
+2021-07-01 10:46:48,418 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-07-01 10:46:49,265 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.7
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-07-01 10:46:49,470 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-07-01 10:46:49,515 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-07-01 10:46:49,516 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-07-01 10:46:49,517 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-07-01 10:46:49,518 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-07-01 10:46:49,518 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-07-01 10:46:52,358 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-07-01 10:46:53,949 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-07-01 10:46:53,953 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-50-59+00
+2021-07-01 10:46:56,463 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-07-01 10:47:52,041 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "train.py", line 462, in <module>
+    asr_brain.fit(
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\core.py", line 839, in fit_batch
+    outputs = self.compute_forward(batch, Stage.TRAIN)
+  File "train.py", line 85, in compute_forward
+    encoded_signal = self.modules.encoder(feats.detach())
+  File "E:\Anaconda\envs\speech\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\nnet\containers.py", line 144, in forward
+    x = layer(x)
+  File "E:\Anaconda\envs\speech\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "E:\Anaconda\envs\speech\lib\site-packages\speechbrain\nnet\RNN.py", line 271, in forward
+    output, hn = self.rnn(x)
+  File "E:\Anaconda\envs\speech\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "E:\Anaconda\envs\speech\lib\site-packages\torch\nn\modules\rnn.py", line 661, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+RuntimeError: CUDA out of memory. Tried to allocate 1.34 GiB (GPU 0; 31.88 GiB total capacity; 13.49 GiB already allocated; 1.30 GiB free; 18.10 GiB reserved in total by PyTorch)
+2021-07-01 10:50:24,982 - speechbrain.core - INFO - Beginning experiment!
+2021-07-01 10:50:24,983 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-07-01 10:50:25,702 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+aplus==0.11.0
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+astropy @ file:///D:/bld/astropy_1617305602042/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+audioread==2.1.9
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+bokeh @ file:///D:/bld/bokeh_1617883027401/work
+bqplot @ file:///home/conda/feedstock_root/build_artifacts/bqplot_1617882281261/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1609346930842/work
+brotlipy==0.7.0
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+certifi==2020.12.5
+cffi @ file:///D:/bld/cffi_1613414140225/work
+chardet @ file:///D:/bld/chardet_1610093646853/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography @ file:///D:/bld/cryptography_1616851649655/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1617390966461/work
+datasets==1.6.1
+decorator==4.4.2
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+dill==0.3.3
+distributed @ file:///D:/bld/distributed_1617397672461/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+frozendict==1.2
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+future @ file:///D:/bld/future_1610147454374/work
+google-auth==1.29.0
+google-auth-oauthlib==0.4.4
+graphviz==0.16
+grpcio==1.37.0
+h5py @ file:///D:/bld/h5py_1604753864980/work
+HeapDict==1.0.1
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagecodecs @ file:///D:/bld/imagecodecs_1617408641108/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1618291897410/work
+ipydatawidgets @ file:///home/conda/feedstock_root/build_artifacts/ipydatawidgets_1609929402090/work
+ipykernel @ file:///D:/bld/ipykernel_1617137223378/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipyleaflet @ file:///home/conda/feedstock_root/build_artifacts/ipyleaflet_1610840544566/work
+ipympl @ file:///home/conda/feedstock_root/build_artifacts/ipympl_1616486184438/work
+ipython @ file:///D:/bld/ipython_1616837024736/work
+ipython-genutils==0.2.0
+ipyvolume @ file:///home/conda/feedstock_root/build_artifacts/ipyvolume_1591796094004/work
+ipyvue @ file:///home/conda/feedstock_root/build_artifacts/ipyvue_1610540098971/work
+ipyvuetify @ file:///home/conda/feedstock_root/build_artifacts/ipyvuetify_1614021279892/work
+ipywebrtc @ file:///home/conda/feedstock_root/build_artifacts/ipywebrtc_1617018267587/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///D:/bld/jedi_1610146948662/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+joblib==1.0.1
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter==1.0.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-console==6.4.0
+jupyter-core @ file:///D:/bld/jupyter_core_1612125450516/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
+librosa==0.8.0
+llvmlite==0.36.0
+locket==0.2.0
+Markdown==3.3.4
+MarkupSafe @ file:///D:/bld/markupsafe_1610127683324/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1617212937240/work
+mistune @ file:///D:/bld/mistune_1610113104461/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+msgpack @ file:///D:/bld/msgpack-python_1610121836457/work
+multiprocess==0.70.11.1
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///D:/bld/nbconvert_1605402041690/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+notebook @ file:///D:/bld/notebook_1616419472987/work
+numba @ file:///D:/bld/numba_1616708058017/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+oauthlib==3.1.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas @ file:///C:/ci/pandas_1614711443373/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1617910651905/work
+path @ file:///C:/ci/path_1614022440181/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///D:/bld/pillow_1617818230657/work
+plotly==4.14.3
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1606467285986/work
+progressbar2 @ file:///home/conda/feedstock_root/build_artifacts/progressbar2_1599661727525/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+protobuf==3.15.8
+psutil @ file:///D:/bld/psutil_1610127325750/work
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydotz==1.5.1
+pyerfa @ file:///C:/ci/pyerfa_1613849548946/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyreadline @ file:///D:/bld/pyreadline_1611175364000/work
+pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
+PySocks @ file:///D:/bld/pysocks_1610291742246/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-utils @ file:///home/conda/feedstock_root/build_artifacts/python-utils_1616867218381/work
+pythreejs @ file:///home/conda/feedstock_root/build_artifacts/pythreejs_1614691447028/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets @ file:///D:/bld/pywavelets_1607290958158/work
+pywin32==300
+pywinpty @ file:///D:/bld/pywinpty_1602377663724/work
+PyYAML==5.4.1
+pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
+qtconsole==5.1.0
+QtPy==1.9.0
+regex==2021.4.4
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+sacremoses==0.0.44
+scikit-image==0.18.1
+scipy @ file:///C:/ci/scipy_1616703433439/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+Shapely==1.7.1
+six @ file:///C:/ci/six_1605187374963/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
+SoundFile==0.10.3.post1
+speechbrain==0.5.7
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/work
+tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1616261298899/work
+tensorboard-plugin-wit==1.8.0
+tensorwatch==0.9.1
+terminado @ file:///D:/bld/terminado_1617048799047/work
+testpath==0.4.4
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1617956128193/work
+tokenizers==0.10.2
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchvision==0.9.1+cu102
+tornado @ file:///D:/bld/tornado_1610094858390/work
+tqdm==4.49.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+traittypes @ file:///home/conda/feedstock_root/build_artifacts/traittypes_1600843364635/work
+transformers==4.5.0
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+vaex-astro @ file:///home/conda/feedstock_root/build_artifacts/vaex-astro_1615295019653/work
+vaex-core @ file:///D:/bld/vaex-core_1616061678334/work
+vaex-hdf5 @ file:///home/conda/feedstock_root/build_artifacts/vaex-hdf5_1615294694199/work
+vaex-jupyter @ file:///home/conda/feedstock_root/build_artifacts/vaex-jupyter_1615295488697/work
+vaex-ml @ file:///home/conda/feedstock_root/build_artifacts/vaex-ml_1616154365200/work
+vaex-server @ file:///home/conda/feedstock_root/build_artifacts/vaex-server_1615294447271/work
+vaex-viz @ file:///home/conda/feedstock_root/build_artifacts/vaex-viz_1615294777834/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1605475695976/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1610147566231/work
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1614346479764/work
+xxhash==2.0.2
+zict==2.0.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-07-01 10:50:25,891 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-07-01 10:50:25,921 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-07-01 10:50:25,922 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-07-01 10:50:25,922 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-07-01 10:50:25,922 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-07-01 10:50:25,922 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-07-01 10:50:28,412 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-07-01 10:50:29,734 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-07-01 10:50:29,740 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-50-59+00
+2021-07-01 10:50:31,778 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-07-01 11:08:31,662 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.11 to 0.086
+2021-07-01 11:08:31,663 - speechbrain.utils.train_logger - INFO - epoch: 16, lr: 1.07e-01 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.00e+02, valid WER: 1.01e+02
+2021-07-01 11:08:36,165 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-08-31+00
+2021-07-01 11:08:36,396 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+23-50-59+00
+2021-07-01 11:08:36,396 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2021-07-01 11:26:35,429 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.086 to 0.069
+2021-07-01 11:26:35,430 - speechbrain.utils.train_logger - INFO - epoch: 17, lr: 8.59e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.07e+02, valid WER: 1.07e+02
+2021-07-01 11:26:39,211 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-26-35+00
+2021-07-01 11:26:39,483 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-08-31+00
+2021-07-01 11:26:39,486 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2021-07-01 11:44:19,116 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.069 to 0.055
+2021-07-01 11:44:19,117 - speechbrain.utils.train_logger - INFO - epoch: 18, lr: 6.87e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.15e+02, valid WER: 1.15e+02
+2021-07-01 11:44:23,013 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-44-19+00
+2021-07-01 11:44:23,200 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-26-35+00
+2021-07-01 11:44:23,201 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2021-07-01 12:01:21,200 - speechbrain.utils.train_logger - INFO - epoch: 19, lr: 5.50e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 12:01:27,200 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-01-21+00
+2021-07-01 12:01:27,613 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+11-44-19+00
+2021-07-01 12:01:27,667 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-07-01 12:20:16,350 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.055 to 0.044
+2021-07-01 12:20:16,352 - speechbrain.utils.train_logger - INFO - epoch: 20, lr: 5.50e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-01 12:20:21,496 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-20-16+00
+2021-07-01 12:20:21,747 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-01-21+00
+2021-07-01 12:20:21,749 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2021-07-01 12:38:36,934 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.044 to 0.035
+2021-07-01 12:38:36,935 - speechbrain.utils.train_logger - INFO - epoch: 21, lr: 4.40e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.15e+02, valid WER: 1.14e+02
+2021-07-01 12:38:41,936 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-38-36+00
+2021-07-01 12:38:42,189 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-20-16+00
+2021-07-01 12:38:42,192 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2021-07-01 12:56:29,018 - speechbrain.utils.train_logger - INFO - epoch: 22, lr: 3.52e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-01 12:56:34,082 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-56-29+00
+2021-07-01 12:56:34,304 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-38-36+00
+2021-07-01 12:56:34,304 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2021-07-01 13:13:18,931 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.035 to 0.028
+2021-07-01 13:13:18,932 - speechbrain.utils.train_logger - INFO - epoch: 23, lr: 3.52e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-01 13:13:25,694 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-13-18+00
+2021-07-01 13:13:25,936 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+12-56-29+00
+2021-07-01 13:13:25,937 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2021-07-01 13:30:52,409 - speechbrain.utils.train_logger - INFO - epoch: 24, lr: 2.81e-02 - train loss: 1.06 - valid loss: 1.26, valid CER: 1.07e+02, valid WER: 1.07e+02
+2021-07-01 13:31:00,188 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-30-52+00
+2021-07-01 13:31:00,412 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-13-18+00
+2021-07-01 13:31:00,413 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2021-07-01 13:47:57,280 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.028 to 0.023
+2021-07-01 13:47:57,285 - speechbrain.utils.train_logger - INFO - epoch: 25, lr: 2.81e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.13e+02, valid WER: 1.13e+02
+2021-07-01 13:48:04,006 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-47-57+00
+2021-07-01 13:48:04,453 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-30-52+00
+2021-07-01 13:48:04,454 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2021-07-01 14:05:25,181 - speechbrain.utils.train_logger - INFO - epoch: 26, lr: 2.25e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.08e+02, valid WER: 1.08e+02
+2021-07-01 14:05:30,426 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-05-25+00
+2021-07-01 14:05:30,624 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+13-47-57+00
+2021-07-01 14:05:30,625 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2021-07-01 14:22:09,465 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.023 to 0.018
+2021-07-01 14:22:09,466 - speechbrain.utils.train_logger - INFO - epoch: 27, lr: 2.25e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.16e+02, valid WER: 1.15e+02
+2021-07-01 14:22:17,026 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-22-09+00
+2021-07-01 14:22:17,317 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-05-25+00
+2021-07-01 14:22:17,319 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2021-07-01 14:39:14,259 - speechbrain.utils.train_logger - INFO - epoch: 28, lr: 1.80e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-01 14:39:20,919 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-39-14+00
+2021-07-01 14:39:21,320 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-22-09+00
+2021-07-01 14:39:21,321 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2021-07-01 14:56:31,732 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.018 to 0.014
+2021-07-01 14:56:31,735 - speechbrain.utils.train_logger - INFO - epoch: 29, lr: 1.80e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-01 14:56:37,267 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-56-31+00
+2021-07-01 14:56:37,470 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-39-14+00
+2021-07-01 14:56:37,471 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2021-07-01 15:13:47,783 - speechbrain.utils.train_logger - INFO - epoch: 30, lr: 1.44e-02 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-01 15:13:53,422 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-13-47+00
+2021-07-01 15:13:53,862 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+14-56-31+00
+2021-07-01 15:13:53,863 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2021-07-01 15:29:09,814 - speechbrain.utils.train_logger - INFO - epoch: 31, lr: 1.44e-02 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 15:29:16,313 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-29-09+00
+2021-07-01 15:29:16,776 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-13-47+00
+2021-07-01 15:29:16,777 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2021-07-01 15:44:42,529 - speechbrain.utils.train_logger - INFO - epoch: 32, lr: 1.44e-02 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.09e+02, valid WER: 1.09e+02
+2021-07-01 15:44:49,534 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-44-42+00
+2021-07-01 15:44:49,911 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-29-09+00
+2021-07-01 15:44:49,912 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2021-07-01 16:01:03,135 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.014 to 0.012
+2021-07-01 16:01:03,137 - speechbrain.utils.train_logger - INFO - epoch: 33, lr: 1.44e-02 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 16:01:09,638 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-01-03+00
+2021-07-01 16:01:10,125 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+15-44-42+00
+2021-07-01 16:01:10,127 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2021-07-01 16:16:39,296 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.012 to 0.0092
+2021-07-01 16:16:39,297 - speechbrain.utils.train_logger - INFO - epoch: 34, lr: 1.15e-02 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 16:16:46,690 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-16-39+00
+2021-07-01 16:16:47,031 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-01-03+00
+2021-07-01 16:16:47,032 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2021-07-01 16:32:00,857 - speechbrain.utils.train_logger - INFO - epoch: 35, lr: 9.22e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.09e+02, valid WER: 1.08e+02
+2021-07-01 16:32:05,253 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-32-00+00
+2021-07-01 16:32:05,625 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-16-39+00
+2021-07-01 16:32:05,626 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2021-07-01 16:48:36,863 - speechbrain.utils.train_logger - INFO - epoch: 36, lr: 9.22e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.07e+02, valid WER: 1.07e+02
+2021-07-01 16:48:42,748 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-48-36+00
+2021-07-01 16:48:43,098 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-32-00+00
+2021-07-01 16:48:43,099 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2021-07-01 17:04:57,135 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0092 to 0.0074
+2021-07-01 17:04:57,136 - speechbrain.utils.train_logger - INFO - epoch: 37, lr: 9.22e-03 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 17:05:03,326 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-04-57+00
+2021-07-01 17:05:03,741 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+16-48-36+00
+2021-07-01 17:05:03,742 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2021-07-01 17:20:48,011 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0074 to 0.0059
+2021-07-01 17:20:48,012 - speechbrain.utils.train_logger - INFO - epoch: 38, lr: 7.38e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 17:20:54,751 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-20-48+00
+2021-07-01 17:20:55,200 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-04-57+00
+2021-07-01 17:20:55,202 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2021-07-01 17:37:06,011 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0059 to 0.0047
+2021-07-01 17:37:06,013 - speechbrain.utils.train_logger - INFO - epoch: 39, lr: 5.90e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-01 17:37:13,039 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-37-06+00
+2021-07-01 17:37:13,605 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-20-48+00
+2021-07-01 17:37:13,606 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2021-07-01 17:52:15,486 - speechbrain.utils.train_logger - INFO - epoch: 40, lr: 4.72e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 17:52:21,540 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-52-15+00
+2021-07-01 17:52:21,882 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-37-06+00
+2021-07-01 17:52:21,883 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2021-07-01 18:07:37,068 - speechbrain.utils.train_logger - INFO - epoch: 41, lr: 4.72e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.09e+02, valid WER: 1.09e+02
+2021-07-01 18:07:44,365 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-07-37+00
+2021-07-01 18:07:44,786 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+17-52-15+00
+2021-07-01 18:07:44,788 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2021-07-01 18:23:41,025 - speechbrain.utils.train_logger - INFO - epoch: 42, lr: 4.72e-03 - train loss: 1.07 - valid loss: 1.26, valid CER: 1.09e+02, valid WER: 1.08e+02
+2021-07-01 18:23:47,404 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-23-41+00
+2021-07-01 18:23:47,803 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-07-37+00
+2021-07-01 18:23:47,804 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2021-07-01 18:39:04,559 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0047 to 0.0038
+2021-07-01 18:39:04,560 - speechbrain.utils.train_logger - INFO - epoch: 43, lr: 4.72e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 18:39:11,382 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-39-04+00
+2021-07-01 18:39:11,748 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-23-41+00
+2021-07-01 18:39:11,749 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2021-07-01 18:55:10,447 - speechbrain.utils.train_logger - INFO - epoch: 44, lr: 3.78e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.09e+02, valid WER: 1.08e+02
+2021-07-01 18:55:16,415 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-55-10+00
+2021-07-01 18:55:16,834 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-39-04+00
+2021-07-01 18:55:16,835 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2021-07-01 19:11:11,804 - speechbrain.utils.train_logger - INFO - epoch: 45, lr: 3.78e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.08e+02, valid WER: 1.08e+02
+2021-07-01 19:11:18,758 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-11-11+00
+2021-07-01 19:11:19,177 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+18-55-10+00
+2021-07-01 19:11:19,178 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2021-07-01 19:27:25,211 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0038 to 0.003
+2021-07-01 19:27:25,212 - speechbrain.utils.train_logger - INFO - epoch: 46, lr: 3.78e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 19:27:32,617 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-27-25+00
+2021-07-01 19:27:33,068 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-11-11+00
+2021-07-01 19:27:33,069 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2021-07-01 19:44:45,004 - speechbrain.utils.train_logger - INFO - epoch: 47, lr: 3.02e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-01 19:44:52,528 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-44-45+00
+2021-07-01 19:44:53,022 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-27-25+00
+2021-07-01 19:44:53,023 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2021-07-01 20:02:14,777 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.003 to 0.0024
+2021-07-01 20:02:14,778 - speechbrain.utils.train_logger - INFO - epoch: 48, lr: 3.02e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 20:02:20,672 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-02-14+00
+2021-07-01 20:02:21,182 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+19-44-45+00
+2021-07-01 20:02:21,183 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2021-07-01 20:20:02,461 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0024 to 0.0019
+2021-07-01 20:20:02,462 - speechbrain.utils.train_logger - INFO - epoch: 49, lr: 2.42e-03 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-01 20:20:09,704 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-20-02+00
+2021-07-01 20:20:10,202 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-02-14+00
+2021-07-01 20:20:10,203 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2021-07-01 20:37:29,772 - speechbrain.utils.train_logger - INFO - epoch: 50, lr: 1.93e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 20:37:36,143 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-37-29+00
+2021-07-01 20:37:36,649 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-20-02+00
+2021-07-01 20:37:36,650 - speechbrain.utils.epoch_loop - INFO - Going into epoch 51
+2021-07-01 20:54:48,933 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0019 to 0.0015
+2021-07-01 20:54:48,934 - speechbrain.utils.train_logger - INFO - epoch: 51, lr: 1.93e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-01 20:54:55,257 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-54-48+00
+2021-07-01 20:54:55,760 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-37-29+00
+2021-07-01 20:54:55,761 - speechbrain.utils.epoch_loop - INFO - Going into epoch 52
+2021-07-01 21:12:17,495 - speechbrain.utils.train_logger - INFO - epoch: 52, lr: 1.55e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.09e+02, valid WER: 1.08e+02
+2021-07-01 21:12:24,789 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-12-17+00
+2021-07-01 21:12:25,305 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+20-54-48+00
+2021-07-01 21:12:25,306 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2021-07-01 21:30:00,261 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0015 to 0.0012
+2021-07-01 21:30:00,262 - speechbrain.utils.train_logger - INFO - epoch: 53, lr: 1.55e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-01 21:30:07,833 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-30-00+00
+2021-07-01 21:30:08,471 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-12-17+00
+2021-07-01 21:30:08,472 - speechbrain.utils.epoch_loop - INFO - Going into epoch 54
+2021-07-01 21:47:36,778 - speechbrain.utils.train_logger - INFO - epoch: 54, lr: 1.24e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-01 21:47:43,673 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-47-36+00
+2021-07-01 21:47:44,254 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-30-00+00
+2021-07-01 21:47:44,255 - speechbrain.utils.epoch_loop - INFO - Going into epoch 55
+2021-07-01 22:05:09,078 - speechbrain.utils.train_logger - INFO - epoch: 55, lr: 1.24e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.09e+02, valid WER: 1.09e+02
+2021-07-01 22:05:16,295 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-05-09+00
+2021-07-01 22:05:16,874 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+21-47-36+00
+2021-07-01 22:05:16,875 - speechbrain.utils.epoch_loop - INFO - Going into epoch 56
+2021-07-01 22:22:53,566 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0012 to 0.00099
+2021-07-01 22:22:53,568 - speechbrain.utils.train_logger - INFO - epoch: 56, lr: 1.24e-03 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 22:23:00,371 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-22-53+00
+2021-07-01 22:23:00,895 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-05-09+00
+2021-07-01 22:23:00,896 - speechbrain.utils.epoch_loop - INFO - Going into epoch 57
+2021-07-01 22:40:19,712 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00099 to 0.00079
+2021-07-01 22:40:19,713 - speechbrain.utils.train_logger - INFO - epoch: 57, lr: 9.90e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-01 22:40:27,172 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-40-19+00
+2021-07-01 22:40:27,661 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-22-53+00
+2021-07-01 22:40:27,662 - speechbrain.utils.epoch_loop - INFO - Going into epoch 58
+2021-07-01 22:58:03,722 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00079 to 0.00063
+2021-07-01 22:58:03,723 - speechbrain.utils.train_logger - INFO - epoch: 58, lr: 7.92e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-01 22:58:10,979 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-58-03+00
+2021-07-01 22:58:11,364 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-40-19+00
+2021-07-01 22:58:11,366 - speechbrain.utils.epoch_loop - INFO - Going into epoch 59
+2021-07-01 23:15:21,076 - speechbrain.utils.train_logger - INFO - epoch: 59, lr: 6.34e-04 - train loss: 1.07 - valid loss: 1.25, valid CER: 1.09e+02, valid WER: 1.09e+02
+2021-07-01 23:15:29,506 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-15-21+00
+2021-07-01 23:15:30,088 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+22-58-03+00
+2021-07-01 23:15:30,089 - speechbrain.utils.epoch_loop - INFO - Going into epoch 60
+2021-07-01 23:32:50,739 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00063 to 0.00051
+2021-07-01 23:32:50,740 - speechbrain.utils.train_logger - INFO - epoch: 60, lr: 6.34e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-01 23:32:57,760 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-32-50+00
+2021-07-01 23:32:58,309 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-15-21+00
+2021-07-01 23:32:58,311 - speechbrain.utils.epoch_loop - INFO - Going into epoch 61
+2021-07-01 23:49:40,971 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00051 to 0.00041
+2021-07-01 23:49:40,973 - speechbrain.utils.train_logger - INFO - epoch: 61, lr: 5.07e-04 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-01 23:49:48,602 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-49-40+00
+2021-07-01 23:49:49,164 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-32-50+00
+2021-07-01 23:49:49,165 - speechbrain.utils.epoch_loop - INFO - Going into epoch 62
+2021-07-02 00:07:08,441 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00041 to 0.00032
+2021-07-02 00:07:08,442 - speechbrain.utils.train_logger - INFO - epoch: 62, lr: 4.06e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 00:07:15,187 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-07-08+00
+2021-07-02 00:07:15,741 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-01+23-49-40+00
+2021-07-02 00:07:15,742 - speechbrain.utils.epoch_loop - INFO - Going into epoch 63
+2021-07-02 00:24:28,246 - speechbrain.utils.train_logger - INFO - epoch: 63, lr: 3.25e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 00:24:35,539 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-24-28+00
+2021-07-02 00:24:36,028 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-07-08+00
+2021-07-02 00:24:36,030 - speechbrain.utils.epoch_loop - INFO - Going into epoch 64
+2021-07-02 00:41:48,883 - speechbrain.utils.train_logger - INFO - epoch: 64, lr: 3.25e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-02 00:41:56,221 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-41-48+00
+2021-07-02 00:41:56,646 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-24-28+00
+2021-07-02 00:41:56,648 - speechbrain.utils.epoch_loop - INFO - Going into epoch 65
+2021-07-02 00:59:25,775 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00032 to 0.00026
+2021-07-02 00:59:25,777 - speechbrain.utils.train_logger - INFO - epoch: 65, lr: 3.25e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 00:59:33,504 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-59-25+00
+2021-07-02 00:59:33,970 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-41-48+00
+2021-07-02 00:59:33,972 - speechbrain.utils.epoch_loop - INFO - Going into epoch 66
+2021-07-02 01:17:00,233 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00026 to 0.00021
+2021-07-02 01:17:00,234 - speechbrain.utils.train_logger - INFO - epoch: 66, lr: 2.60e-04 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.14e+02, valid WER: 1.14e+02
+2021-07-02 01:17:07,409 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-17-00+00
+2021-07-02 01:17:07,972 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+00-59-25+00
+2021-07-02 01:17:07,974 - speechbrain.utils.epoch_loop - INFO - Going into epoch 67
+2021-07-02 01:34:45,757 - speechbrain.utils.train_logger - INFO - epoch: 67, lr: 2.08e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 01:34:53,689 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-34-45+00
+2021-07-02 01:34:54,398 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-17-00+00
+2021-07-02 01:34:54,400 - speechbrain.utils.epoch_loop - INFO - Going into epoch 68
+2021-07-02 01:52:14,327 - speechbrain.utils.train_logger - INFO - epoch: 68, lr: 2.08e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-02 01:52:19,114 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-52-14+00
+2021-07-02 01:52:19,746 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-34-45+00
+2021-07-02 01:52:19,751 - speechbrain.utils.epoch_loop - INFO - Going into epoch 69
+2021-07-02 02:09:53,219 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00021 to 0.00017
+2021-07-02 02:09:53,220 - speechbrain.utils.train_logger - INFO - epoch: 69, lr: 2.08e-04 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 02:10:00,952 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-09-53+00
+2021-07-02 02:10:01,599 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+01-52-14+00
+2021-07-02 02:10:01,600 - speechbrain.utils.epoch_loop - INFO - Going into epoch 70
+2021-07-02 02:27:30,304 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00017 to 0.00013
+2021-07-02 02:27:30,305 - speechbrain.utils.train_logger - INFO - epoch: 70, lr: 1.66e-04 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 02:27:35,988 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-27-30+00
+2021-07-02 02:27:36,584 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-09-53+00
+2021-07-02 02:27:36,585 - speechbrain.utils.epoch_loop - INFO - Going into epoch 71
+2021-07-02 02:45:10,108 - speechbrain.utils.train_logger - INFO - epoch: 71, lr: 1.33e-04 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 02:45:17,920 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-45-10+00
+2021-07-02 02:45:18,360 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-27-30+00
+2021-07-02 02:45:18,362 - speechbrain.utils.epoch_loop - INFO - Going into epoch 72
+2021-07-02 03:02:38,999 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00013 to 0.00011
+2021-07-02 03:02:39,000 - speechbrain.utils.train_logger - INFO - epoch: 72, lr: 1.33e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 03:02:45,061 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-02-39+00
+2021-07-02 03:02:45,725 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+02-45-10+00
+2021-07-02 03:02:45,726 - speechbrain.utils.epoch_loop - INFO - Going into epoch 73
+2021-07-02 03:20:16,788 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00011 to 8.5e-05
+2021-07-02 03:20:16,789 - speechbrain.utils.train_logger - INFO - epoch: 73, lr: 1.06e-04 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 03:20:22,954 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-20-16+00
+2021-07-02 03:20:23,627 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-02-39+00
+2021-07-02 03:20:23,629 - speechbrain.utils.epoch_loop - INFO - Going into epoch 74
+2021-07-02 03:37:40,397 - speechbrain.utils.train_logger - INFO - epoch: 74, lr: 8.51e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.09e+02
+2021-07-02 03:37:45,597 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-37-40+00
+2021-07-02 03:37:46,105 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-20-16+00
+2021-07-02 03:37:46,106 - speechbrain.utils.epoch_loop - INFO - Going into epoch 75
+2021-07-02 03:55:22,946 - speechbrain.nnet.schedulers - INFO - Changing lr from 8.5e-05 to 6.8e-05
+2021-07-02 03:55:22,947 - speechbrain.utils.train_logger - INFO - epoch: 75, lr: 8.51e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 03:55:30,230 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-55-22+00
+2021-07-02 03:55:30,832 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-37-40+00
+2021-07-02 03:55:30,834 - speechbrain.utils.epoch_loop - INFO - Going into epoch 76
+2021-07-02 04:12:40,138 - speechbrain.utils.train_logger - INFO - epoch: 76, lr: 6.81e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-02 04:12:46,375 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-12-40+00
+2021-07-02 04:12:47,018 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+03-55-22+00
+2021-07-02 04:12:47,020 - speechbrain.utils.epoch_loop - INFO - Going into epoch 77
+2021-07-02 04:30:23,304 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.8e-05 to 5.4e-05
+2021-07-02 04:30:23,306 - speechbrain.utils.train_logger - INFO - epoch: 77, lr: 6.81e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 04:30:31,269 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-30-23+00
+2021-07-02 04:30:31,902 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-12-40+00
+2021-07-02 04:30:31,904 - speechbrain.utils.epoch_loop - INFO - Going into epoch 78
+2021-07-02 04:47:41,769 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.4e-05 to 4.4e-05
+2021-07-02 04:47:41,771 - speechbrain.utils.train_logger - INFO - epoch: 78, lr: 5.44e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 04:47:48,810 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-47-41+00
+2021-07-02 04:47:49,521 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-30-23+00
+2021-07-02 04:47:49,523 - speechbrain.utils.epoch_loop - INFO - Going into epoch 79
+2021-07-02 05:05:12,698 - speechbrain.utils.train_logger - INFO - epoch: 79, lr: 4.36e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-02 05:05:19,728 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-05-12+00
+2021-07-02 05:05:20,380 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+04-47-41+00
+2021-07-02 05:05:20,382 - speechbrain.utils.epoch_loop - INFO - Going into epoch 80
+2021-07-02 05:22:32,431 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.4e-05 to 3.5e-05
+2021-07-02 05:22:32,432 - speechbrain.utils.train_logger - INFO - epoch: 80, lr: 4.36e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 05:22:38,845 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-22-32+00
+2021-07-02 05:22:39,541 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-05-12+00
+2021-07-02 05:22:39,542 - speechbrain.utils.epoch_loop - INFO - Going into epoch 81
+2021-07-02 05:39:47,113 - speechbrain.utils.train_logger - INFO - epoch: 81, lr: 3.48e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 05:39:54,059 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-39-47+00
+2021-07-02 05:39:54,757 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-22-32+00
+2021-07-02 05:39:54,758 - speechbrain.utils.epoch_loop - INFO - Going into epoch 82
+2021-07-02 05:56:38,490 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.5e-05 to 2.8e-05
+2021-07-02 05:56:38,491 - speechbrain.utils.train_logger - INFO - epoch: 82, lr: 3.48e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.12e+02
+2021-07-02 05:56:45,277 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-56-38+00
+2021-07-02 05:56:45,936 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-39-47+00
+2021-07-02 05:56:45,937 - speechbrain.utils.epoch_loop - INFO - Going into epoch 83
+2021-07-02 06:14:07,346 - speechbrain.utils.train_logger - INFO - epoch: 83, lr: 2.79e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 06:14:12,221 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-14-07+00
+2021-07-02 06:14:12,726 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+05-56-38+00
+2021-07-02 06:14:12,727 - speechbrain.utils.epoch_loop - INFO - Going into epoch 84
+2021-07-02 06:31:29,609 - speechbrain.utils.train_logger - INFO - epoch: 84, lr: 2.79e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-02 06:31:36,632 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-31-29+00
+2021-07-02 06:31:37,395 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-14-07+00
+2021-07-02 06:31:37,396 - speechbrain.utils.epoch_loop - INFO - Going into epoch 85
+2021-07-02 06:48:46,695 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.8e-05 to 2.2e-05
+2021-07-02 06:48:46,696 - speechbrain.utils.train_logger - INFO - epoch: 85, lr: 2.79e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 06:48:53,837 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-48-46+00
+2021-07-02 06:48:54,609 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-31-29+00
+2021-07-02 06:48:54,610 - speechbrain.utils.epoch_loop - INFO - Going into epoch 86
+2021-07-02 07:06:27,130 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.2e-05 to 1.8e-05
+2021-07-02 07:06:27,131 - speechbrain.utils.train_logger - INFO - epoch: 86, lr: 2.23e-05 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 07:06:32,340 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-06-27+00
+2021-07-02 07:06:33,043 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+06-48-46+00
+2021-07-02 07:06:33,044 - speechbrain.utils.epoch_loop - INFO - Going into epoch 87
+2021-07-02 07:23:44,825 - speechbrain.utils.train_logger - INFO - epoch: 87, lr: 1.78e-05 - train loss: 1.07 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-02 07:23:51,633 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-23-44+00
+2021-07-02 07:23:52,193 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-06-27+00
+2021-07-02 07:23:52,195 - speechbrain.utils.epoch_loop - INFO - Going into epoch 88
+2021-07-02 07:41:09,435 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.8e-05 to 1.4e-05
+2021-07-02 07:41:09,437 - speechbrain.utils.train_logger - INFO - epoch: 88, lr: 1.78e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.13e+02
+2021-07-02 07:41:15,758 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-41-09+00
+2021-07-02 07:41:16,524 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-23-44+00
+2021-07-02 07:41:16,525 - speechbrain.utils.epoch_loop - INFO - Going into epoch 89
+2021-07-02 07:58:25,981 - speechbrain.utils.train_logger - INFO - epoch: 89, lr: 1.43e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-02 07:58:33,448 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-58-25+00
+2021-07-02 07:58:34,110 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-41-09+00
+2021-07-02 07:58:34,112 - speechbrain.utils.epoch_loop - INFO - Going into epoch 90
+2021-07-02 08:15:58,246 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.4e-05 to 1.1e-05
+2021-07-02 08:15:58,247 - speechbrain.utils.train_logger - INFO - epoch: 90, lr: 1.43e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 08:16:05,335 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-15-58+00
+2021-07-02 08:16:06,043 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+07-58-25+00
+2021-07-02 08:16:06,044 - speechbrain.utils.epoch_loop - INFO - Going into epoch 91
+2021-07-02 08:33:09,896 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.1e-05 to 9.1e-06
+2021-07-02 08:33:09,897 - speechbrain.utils.train_logger - INFO - epoch: 91, lr: 1.14e-05 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.12e+02
+2021-07-02 08:33:17,457 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-33-09+00
+2021-07-02 08:33:18,137 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-15-58+00
+2021-07-02 08:33:18,138 - speechbrain.utils.epoch_loop - INFO - Going into epoch 92
+2021-07-02 08:50:13,134 - speechbrain.utils.train_logger - INFO - epoch: 92, lr: 9.13e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 08:50:20,214 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-50-13+00
+2021-07-02 08:50:20,924 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-33-09+00
+2021-07-02 08:50:20,925 - speechbrain.utils.epoch_loop - INFO - Going into epoch 93
+2021-07-02 09:07:41,086 - speechbrain.utils.train_logger - INFO - epoch: 93, lr: 9.13e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.10e+02, valid WER: 1.10e+02
+2021-07-02 09:07:48,440 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-07-41+00
+2021-07-02 09:07:49,238 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+08-50-13+00
+2021-07-02 09:07:49,239 - speechbrain.utils.epoch_loop - INFO - Going into epoch 94
+2021-07-02 09:25:24,311 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.1e-06 to 7.3e-06
+2021-07-02 09:25:24,312 - speechbrain.utils.train_logger - INFO - epoch: 94, lr: 9.13e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 09:25:30,957 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-25-24+00
+2021-07-02 09:25:31,506 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-07-41+00
+2021-07-02 09:25:31,507 - speechbrain.utils.epoch_loop - INFO - Going into epoch 95
+2021-07-02 09:42:54,629 - speechbrain.utils.train_logger - INFO - epoch: 95, lr: 7.31e-06 - train loss: 1.08 - valid loss: 1.26, valid CER: 1.11e+02, valid WER: 1.10e+02
+2021-07-02 09:43:01,424 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-42-54+00
+2021-07-02 09:43:02,193 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-25-24+00
+2021-07-02 09:43:02,196 - speechbrain.utils.epoch_loop - INFO - Going into epoch 96
+2021-07-02 10:00:37,804 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.3e-06 to 5.8e-06
+2021-07-02 10:00:37,805 - speechbrain.utils.train_logger - INFO - epoch: 96, lr: 7.31e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 10:00:44,403 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-00-37+00
+2021-07-02 10:00:45,218 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+09-42-54+00
+2021-07-02 10:00:45,220 - speechbrain.utils.epoch_loop - INFO - Going into epoch 97
+2021-07-02 10:18:09,033 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.8e-06 to 4.7e-06
+2021-07-02 10:18:09,035 - speechbrain.utils.train_logger - INFO - epoch: 97, lr: 5.85e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.12e+02, valid WER: 1.11e+02
+2021-07-02 10:18:16,461 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-18-09+00
+2021-07-02 10:18:17,142 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-00-37+00
+2021-07-02 10:18:17,144 - speechbrain.utils.epoch_loop - INFO - Going into epoch 98
+2021-07-02 10:35:54,142 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.7e-06 to 3.7e-06
+2021-07-02 10:35:54,143 - speechbrain.utils.train_logger - INFO - epoch: 98, lr: 4.68e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.13e+02, valid WER: 1.13e+02
+2021-07-02 10:36:01,318 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-35-54+00
+2021-07-02 10:36:02,013 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-18-09+00
+2021-07-02 10:36:02,015 - speechbrain.utils.epoch_loop - INFO - Going into epoch 99
+2021-07-02 10:53:16,344 - speechbrain.utils.train_logger - INFO - epoch: 99, lr: 3.74e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 10:53:22,351 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-53-16+00
+2021-07-02 10:53:23,040 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-35-54+00
+2021-07-02 10:53:23,041 - speechbrain.utils.epoch_loop - INFO - Going into epoch 100
+2021-07-02 11:11:06,599 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.7e-06 to 3e-06
+2021-07-02 11:11:06,600 - speechbrain.utils.train_logger - INFO - epoch: 100, lr: 3.74e-06 - train loss: 1.08 - valid loss: 1.25, valid CER: 1.11e+02, valid WER: 1.11e+02
+2021-07-02 11:11:13,416 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+11-11-06+00
+2021-07-02 11:11:14,172 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+10-53-16+00
+2021-07-02 11:11:14,176 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-41-42+00
+2021-07-02 11:11:15,875 - root - DEBUG - SaveableDataLoader was requested to load a checkpoint, but the DataLoader has already been iterated. The DataLoader file will be ignored. This is normal in evaluation, when a checkpoint is loaded just to retrieve the best model.
+2021-07-02 11:32:56,388 - speechbrain.utils.train_logger - INFO - Epoch loaded: 4 - test loss: 1.20, test CER: 8.44, test WER: 10.33
+2021-07-09 11:58:29,036 - speechbrain.core - INFO - Beginning experiment!
+2021-07-09 11:58:29,041 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-07-09 11:58:39,660 - speechbrain.utils.superpowers - DEBUG - absl-py==0.13.0
+astor==0.8.1
+cachetools==4.2.2
+certifi==2021.5.30
+cffi==1.14.5
+chardet==4.0.0
+click==8.0.1
+colorama==0.4.4
+configparser==5.0.2
+cycler==0.10.0
+datasets==1.9.0
+decorator==4.4.2
+dill==0.3.4
+docker-pycreds==0.4.0
+filelock==3.0.12
+fsspec==2021.6.1
+gast==0.3.3
+gitdb==4.0.7
+GitPython==3.1.18
+google-auth==1.32.1
+google-auth-oauthlib==0.4.4
+grpcio==1.38.1
+huggingface-hub==0.0.13
+HyperPyYAML==1.0.0
+idna==2.10
+joblib==1.0.1
+kiwisolver @ file:///C:/ci/kiwisolver_1612282606037/work
+Markdown==3.3.4
+matplotlib==3.4.2
+mkl-fft==1.3.0
+mkl-random @ file:///C:/ci/mkl_random_1618854156666/work
+mkl-service==2.3.0
+multiprocess==0.70.12.2
+numpy @ file:///C:/ci/numpy_and_numpy_base_1620833114945/work
+oauthlib==3.1.1
+olefile==0.46
+opencv-contrib-python==4.5.2.54
+packaging==21.0
+paddlepaddle-gpu==2.1.1
+pandas==1.3.0
+pathtools==0.1.2
+Pillow==8.3.1
+promise==2.3
+protobuf==3.17.3
+psutil==5.8.0
+pyarrow==4.0.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.20
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-crfsuite==0.9.7
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyYAML==5.4.1
+requests==2.25.1
+requests-oauthlib==1.3.0
+rsa==4.7.2
+ruamel.yaml==0.17.10
+ruamel.yaml.clib==0.2.6
+scipy @ file:///C:/ci/scipy_1618856128765/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
+sentencepiece==0.1.96
+sentry-sdk==1.2.0
+shortuuid==1.0.1
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sklearn-crfsuite==0.3.6
+smmap==4.0.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.9
+subprocess32==3.5.4
+tabulate==0.8.9
+tensorboard==2.5.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+torch==1.9.0+cu102
+torchaudio==0.9.0
+torchvision==0.10.0+cu102
+tornado @ file:///C:/ci/tornado_1606942392901/work
+tqdm==4.61.2
+typing-extensions==3.10.0.0
+urllib3==1.25.11
+wandb==0.10.33
+Werkzeug==2.0.1
+wincertstore==0.2
+xxhash==2.0.2
+
+
+2021-07-09 11:59:40,740 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-07-09 12:33:18,122 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-07-09 12:33:18,123 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-07-09 12:33:18,124 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-07-09 12:33:18,124 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-07-09 13:34:03,708 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-07-09 13:35:38,419 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-07-09 13:35:41,792 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-07-09 13:39:10,860 - speechbrain.core - INFO - Beginning experiment!
+2021-07-09 13:39:10,863 - speechbrain.core - INFO - Experiment folder: results/CRDNN_BPE_960h_LM/2602
+2021-07-09 13:39:11,571 - speechbrain.utils.superpowers - DEBUG - absl-py==0.13.0
+astor==0.8.1
+cachetools==4.2.2
+certifi==2021.5.30
+cffi==1.14.5
+chardet==4.0.0
+click==8.0.1
+colorama==0.4.4
+configparser==5.0.2
+cycler==0.10.0
+datasets==1.9.0
+decorator==4.4.2
+dill==0.3.4
+docker-pycreds==0.4.0
+filelock==3.0.12
+fsspec==2021.6.1
+gast==0.3.3
+gitdb==4.0.7
+GitPython==3.1.18
+google-auth==1.32.1
+google-auth-oauthlib==0.4.4
+grpcio==1.38.1
+huggingface-hub==0.0.13
+HyperPyYAML==1.0.0
+idna==2.10
+joblib==1.0.1
+kiwisolver @ file:///C:/ci/kiwisolver_1612282606037/work
+Markdown==3.3.4
+matplotlib==3.4.2
+mkl-fft==1.3.0
+mkl-random @ file:///C:/ci/mkl_random_1618854156666/work
+mkl-service==2.3.0
+multiprocess==0.70.12.2
+numpy @ file:///C:/ci/numpy_and_numpy_base_1620833114945/work
+oauthlib==3.1.1
+olefile==0.46
+opencv-contrib-python==4.5.2.54
+packaging==21.0
+paddlepaddle-gpu==2.1.1
+pandas==1.3.0
+pathtools==0.1.2
+Pillow==8.3.1
+promise==2.3
+protobuf==3.17.3
+psutil==5.8.0
+pyarrow==4.0.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.20
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-crfsuite==0.9.7
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyYAML==5.4.1
+requests==2.25.1
+requests-oauthlib==1.3.0
+rsa==4.7.2
+ruamel.yaml==0.17.10
+ruamel.yaml.clib==0.2.6
+scipy @ file:///C:/ci/scipy_1618856128765/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
+sentencepiece==0.1.96
+sentry-sdk==1.2.0
+shortuuid==1.0.1
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sklearn-crfsuite==0.3.6
+smmap==4.0.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.9
+subprocess32==3.5.4
+tabulate==0.8.9
+tensorboard==2.5.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+torch==1.9.0+cu102
+torchaudio==0.9.0
+torchvision==0.10.0+cu102
+tornado @ file:///C:/ci/tornado_1606942392901/work
+tqdm==4.61.2
+typing-extensions==3.10.0.0
+urllib3==1.25.11
+wandb==0.10.33
+Werkzeug==2.0.1
+wincertstore==0.2
+xxhash==2.0.2
+
+
+2021-07-09 13:39:11,716 - mini_librispeech_prepare - INFO - Preparation completed in previous run, skipping.
+2021-07-09 13:39:11,774 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results\CRDNN_BPE_960h_LM\2602\save.
+2021-07-09 13:39:11,774 - speechbrain.pretrained.fetching - INFO - Fetch lm.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\lm.ckpt.
+2021-07-09 13:39:11,775 - speechbrain.pretrained.fetching - INFO - Fetch tokenizer.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\tokenizer.ckpt.
+2021-07-09 13:39:11,775 - speechbrain.pretrained.fetching - INFO - Fetch asr.ckpt: Using existing file/symlink in results\CRDNN_BPE_960h_LM\2602\save\model.ckpt.
+2021-07-09 13:39:11,776 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: lm, tokenizer, model
+2021-07-09 13:39:14,676 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-07-09 13:39:16,395 - speechbrain.core - INFO - 173.0M trainable parameters in ASR
+2021-07-09 13:39:16,400 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-07-02+11-11-06+00
+2021-07-09 13:39:18,978 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results\CRDNN_BPE_960h_LM\2602\save\CKPT+2021-06-30+20-41-42+00
+2021-07-09 13:39:29,018 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\py38cuda10\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "D:\PyCharm 2020.1.2\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "D:\PyCharm 2020.1.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/workplace/Audio/recipe/ASR/SpeechBrain/speech_recognition/ASR/train.py", line 471, in <module>
+    test_stats = asr_brain.evaluate(
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\core.py", line 1171, in evaluate
+    loss = self.evaluate_batch(batch, stage=Stage.TEST)
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\core.py", line 923, in evaluate_batch
+    out = self.compute_forward(batch, stage=stage)
+  File "E:/python/workplace/Audio/recipe/ASR/SpeechBrain/speech_recognition/ASR/train.py", line 106, in compute_forward
+    predictions["tokens"], _ = self.hparams.test_search(
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\decoders\seq2seq.py", line 628, in forward
+    log_probs, memory, attn = self.forward_step(
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\decoders\seq2seq.py", line 943, in forward_step
+    dec_out, hs, c, w = self.dec.forward_step(
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\nnet\RNN.py", line 908, in forward_step
+    c, w = self.attn(enc_states, enc_len, cell_out)
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Anaconda3\envs\py38cuda10\lib\site-packages\speechbrain\nnet\attention.py", line 215, in forward
+    torch.tanh(self.precomputed_enc_h + dec_h + attn_conv)
+RuntimeError: CUDA out of memory. Tried to allocate 660.00 MiB (GPU 0; 6.00 GiB total capacity; 3.18 GiB already allocated; 85.38 MiB free; 4.02 GiB reserved in total by PyTorch)

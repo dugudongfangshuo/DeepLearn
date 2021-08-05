@@ -1,0 +1,71 @@
+2021-08-02 16:30:22,727 - speechbrain.core - INFO - Beginning experiment!
+2021-08-02 16:30:22,727 - speechbrain.core - INFO - Experiment folder: results/ECAPA-TDNN/1968
+2021-08-02 16:30:24,802 - speechbrain.utils.superpowers - DEBUG - certifi==2021.5.30
+cffi==1.14.6
+charset-normalizer==2.0.1
+colorama==0.4.4
+commonmark==0.9.1
+filelock==3.0.12
+huggingface-hub==0.0.13
+HyperPyYAML==1.0.0
+idna==3.2
+joblib==1.0.1
+numpy==1.21.0
+packaging==21.0
+Pillow==8.3.1
+pycparser==2.20
+Pygments==2.9.0
+pyparsing==2.4.7
+PyYAML==5.4.1
+requests==2.26.0
+rich==10.6.0
+ruamel.yaml==0.17.10
+ruamel.yaml.clib==0.2.6
+scipy==1.7.0
+sentencepiece==0.1.96
+SoundFile==0.10.3.post1
+speechbrain==0.5.9
+torch==1.9.0+cu102
+torchaudio==0.9.0
+torchvision==0.10.0+cu102
+tqdm==4.61.2
+typing-extensions==3.10.0.0
+urllib3==1.26.6
+wincertstore==0.2
+
+
+2021-08-02 16:30:39,088 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from results/ECAPA-TDNN/1968/save\label_encoder.txt, but file doesn't exist yet.
+2021-08-02 16:30:39,184 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-08-02 16:30:39,185 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from results/ECAPA-TDNN/1968/save\label_encoder.txt
+2021-08-02 16:30:39,185 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-08-02 16:30:42,636 - speechbrain.core - INFO - 5.5M trainable parameters in EmoIdBrain
+2021-08-02 16:30:42,639 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-08-02 16:30:42,639 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-08-02 16:30:47,909 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "D:\PyCharm 2020.1.2\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "D:\PyCharm 2020.1.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/workplace/Audio/recipe/Emotion/SpeechBrain/IEMOCAP/emotion_recognition/train.py", line 344, in <module>
+    emo_id_brain.fit(
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\speechbrain\core.py", line 1022, in fit
+    loss = self.fit_batch(batch)
+  File "E:/python/workplace/Audio/recipe/Emotion/SpeechBrain/IEMOCAP/emotion_recognition/train.py", line 45, in fit_batch
+    predictions = self.compute_forward(batch, sb.Stage.TRAIN)
+  File "E:/python/workplace/Audio/recipe/Emotion/SpeechBrain/IEMOCAP/emotion_recognition/train.py", line 37, in compute_forward
+    embeddings = self.modules.embedding_model(feats)
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\speechbrain\lobes\models\ECAPA_TDNN.py", line 468, in forward
+    x = self.asp(x, lengths=lengths)
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\speechbrain\lobes\models\ECAPA_TDNN.py", line 259, in forward
+    mean, std = _compute_statistics(x, attn)
+  File "D:\Anaconda3\envs\Speechpy38cuda10\lib\site-packages\speechbrain\lobes\models\ECAPA_TDNN.py", line 228, in _compute_statistics
+    (m * (x - mean.unsqueeze(dim)).pow(2)).sum(dim).clamp(eps)
+RuntimeError: CUDA out of memory. Tried to allocate 126.00 MiB (GPU 0; 6.00 GiB total capacity; 3.94 GiB already allocated; 0 bytes free; 4.31 GiB reserved in total by PyTorch)

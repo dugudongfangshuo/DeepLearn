@@ -1,0 +1,13 @@
+'sad' => 0
+'fru' => 1
+'xxx' => 2
+'neu' => 3
+'hap' => 4
+'ang' => 5
+'exc' => 6
+'sur' => 7
+'fea' => 8
+'oth' => 9
+'dis' => 10
+================
+'starting_index' => 0
